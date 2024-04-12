@@ -24,4 +24,4 @@ http
   })
   .listen(PORT);
 
-console.log("Сервер запущен по адресу http://localhost:8080");
+console.log(`Сервер запущен по адресу http://localhost:${PORT}`);
