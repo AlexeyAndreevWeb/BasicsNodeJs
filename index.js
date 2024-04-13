@@ -21,7 +21,8 @@ http
         "Content-Type": "text/html; charset=utf-8",
       });
       res.write("<h1>About</h1>");
-      res.end("Number of views:" + userCountAbout)
+      res.write("Number of views:" + userCountAbout);
+      res.end("<br><a href='/'>return to home page</a>");
     } else {
       res.writeHead(404, {
         "Content-Type": "text/html; charset=utf-8",
