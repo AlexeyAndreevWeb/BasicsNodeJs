@@ -27,7 +27,7 @@ http
         "Content-Type": "text/html; charset=utf-8",
       });
       res.write("Error page 404");
-      res.end("<a href='/'>return to home page</a>")
+      res.end("<br><a href='/'>return to home page</a>")
     }
   })
   .listen(PORT);
